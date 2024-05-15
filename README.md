@@ -1,4 +1,3 @@
-![GitHub Snake Animation](https://github.com/swedevswe/swedevswe/blob/output/github-contribution-grid-snake.svg)
 ### Hi there 👋
 
 # Welcome to My GitHub Profile! 👋
@@ -57,4 +56,4 @@ Feel free to check out my repositories and get in touch if you have any question
 
 ⭐️ From [swedevswe](https://github.com/swedevswe)
 
-"Add Snake Game"
+![GitHub Snake Animation](https://github.com/swedevswe/swedevswe/blob/output/github-contribution-grid-snake.svg)
