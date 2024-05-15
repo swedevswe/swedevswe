@@ -10,10 +10,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout the repository
-        uses: actions/checkout@v3 # Ensure this is the latest version for Node.js 20 support
+        uses: actions/checkout@v3 
 
       - name: Generate Snake Game from commits
-        uses: Platane/snk@v2.2.1
+        id: snake
+        uses: Platane/snk@v2
         with:
           github_user_name: ${{ github.repository_owner }}
 
