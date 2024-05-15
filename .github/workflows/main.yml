@@ -10,14 +10,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout the repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v3 # Updated to use Node.js 20
 
       - name: Generate Snake Game from commits
         id: snake
-        uses: Platane/snk@v2
+        uses: Platane/snk@v2.2.1 # Ensure the latest stable version
         with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           github_user_name: ${{ github.repository_owner }}
-          outputs: dist/github-contribution-grid-snake.svg
+          output_path: dist/github-contribution-grid-snake.svg
 
       - name: Deploy Snake Game to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
