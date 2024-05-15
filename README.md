@@ -47,7 +47,7 @@ Developed a machine learning model to recommend movies based on user preferences
 ## Get in Touch
 
 - **LinkedIn**: [SS](https://www.linkedin.com/in/swethasebastian/)
-- **Twitter**: [@swedevswe](https://twitter.com/swedevswe)
+- **Twitter**: [@eva_sweva](https://twitter.com/eva_sweva)
 - **Blog**: [My Portfolio](https://swedevswe.github.io/Swe-Portfolio-Swe/)
 
 Feel free to check out my repositories and get in touch if you have any questions or just want to connect!
