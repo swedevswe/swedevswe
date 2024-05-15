@@ -44,16 +44,6 @@ Developed a machine learning model to recommend movies based on user preferences
 - **Databases**: MySQL, PostgreSQL, MongoDB, SQL queries and database design
 - **Software Development**: Agile methodologies, unit testing (JUnit, Mockito), CI/CD pipelines
 
-## Contributions
-
-I love contributing to open-source projects. Here are a few repositories I've contributed to:
-
-- [SomeProject](https://github.com/someorg/someproject)
-  - Implemented feature X to improve performance.
-
-- [AnotherRepo](https://github.com/anotherorg/anotherrepo)
-  - Fixed critical bugs and updated documentation.
-
 ## Get in Touch
 
 - **LinkedIn**: [SS](https://www.linkedin.com/in/swethasebastian/)
