@@ -19,7 +19,7 @@ Hi! I'm Swe Seb ([@swedevswe](https://github.com/swedevswe)), a passionate softw
 **University of Bath, Bath, UK**  
 Master of Science in Computer Science, Expected March 2025.
 - Grade: Upper Second-Class Honours (2:1) - Top 30% of class.
-- Relevant Coursework: Software Engineering and Systems Design, Machine Learning, Data Structures & Algorithms, Human-Computer Interaction.
+- Relevant Coursework: Software Engineering and Systems Design, Machine Learning, Data Structures & Algorithms, CyberSecurity, Human-Computer Interaction.
 - Research Project Dissertation: Optimising Algorithmic Trading using Reinforcement Learning and Sentiment Analysis.
   
 ## Projects
