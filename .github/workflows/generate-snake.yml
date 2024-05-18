@@ -2,21 +2,33 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 6 * * *"
+    - cron: "0 6 * * *"  # Adjust this to your desired schedule
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
       - name: Generate Snake Animation
-        uses: Platane/snk@v2.1.0
+        uses: Platane/snk@v2
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: dist
+
+      - name: Debug - Print environment variables
+        run: env
+
+      - name: Debug - List repository files
+        run: ls -R
 
       - name: Upload Snake Animation
         uses: actions/upload-artifact@v2
