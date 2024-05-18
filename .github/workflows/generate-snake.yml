@@ -31,3 +31,9 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
           publish_branch: gh-pages
+          
+      - name: Debug - Print environment variables
+        run: env
+
+      - name: Debug - List repository files
+        run: ls -R
