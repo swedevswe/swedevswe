@@ -13,16 +13,10 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
 
-    - name: Setup Node.js
-      uses: actions/setup-node@v2
-      with:
-        node-version: '14'
-
     - name: Generate Snake Animation
       uses: Platane/snk@v2
       with:
         github_user_name: ${{ github.repository_owner }}
-        github_token: ${{ secrets.GITHUB_TOKEN }}
         outputs: dist
 
     - name: Upload Snake Animation
