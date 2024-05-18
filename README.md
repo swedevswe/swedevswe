@@ -56,9 +56,12 @@ Feel free to check out my repositories and get in touch if you have any question
 
 ⭐️ From [swedevswe](https://github.com/swedevswe)
 
+## Snake Animation
+
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://<swedevswe>.github.io/<swedevswe>/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://<swedevswe>.github.io/<swedevswe>/github-snake.svg" />
-  <img alt="github-snake" src="https://<swedevswe>.github.io/<swedevswe>/github-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://swedevswe.github.io/swedevswe/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://swedevswe.github.io/swedevswe/github-snake.svg" />
+  <img alt="github-snake" src="https://swedevswe.github.io/swedevswe/github-snake.svg" />
 </picture>
+
 
