@@ -1,10 +1,12 @@
-name: Test Snake Generation
+name: Generate Snake
 
 on:
+  schedule:
+    - cron: "0 6 * * *"  # Adjust this to your desired schedule
   workflow_dispatch:
 
 jobs:
-  test:
+  build:
     runs-on: ubuntu-latest
 
     steps:
@@ -12,13 +14,23 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Generate Snake Animation
-        uses: Platane/snk@v2
+        uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          outputs: dist
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
 
-      - name: Debug - Print environment variables
-        run: env
+      - name: Upload Snake Animation
+        uses: actions/upload-artifact@v2
+        with:
+          name: github-snake
+          path: dist/github-snake.svg
 
-      - name: Debug - List repository files
-        run: ls -R
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: gh-pages
