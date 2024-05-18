@@ -58,5 +58,6 @@ Feel free to check out my repositories and get in touch if you have any question
 
 ## Snake Animation
 
-![GitHub Snake Animation](https://github.com/swedevswe/swedevswe/blob/output/github-contribution-grid-snake.svg)
+![GitHub Snake Animation](https://raw.githubusercontent.com/swedevswe/swedevswe/output/github-contribution-grid-snake.svg)
+
 
