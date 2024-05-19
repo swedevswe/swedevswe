@@ -38,7 +38,7 @@ Developed a machine learning model to recommend movies based on user preferences
 
 ## Technical Skills
 
-- **Programming Languages**: Java, Python, JavaScript (including ES6+), HTML, CSS, Also Familiar with (C, C#) through coursework and working on projects.
+- **Programming Languages**: Java, Python, JavaScript (including ES6+), HTML, CSS, also Familiar with (C, C#) through coursework and working on projects.
 - **Frameworks/Libraries**: React.js, Node.js, .NET Core, Spring Boot
 - **Development Tools**: Git, Docker, Jenkins, VS Code, IntelliJ IDEA
 - **Databases**: MySQL, PostgreSQL, MongoDB, SQL queries and database design
