@@ -4,7 +4,7 @@
 
 ## About Me
 
-Hi! I'm Swetha ([@swedevswe](https://github.com/swedevswe)), a passionate software developer with a love for open-source development and data science. I enjoy working on exciting projects and contributing to the open-source community. 
+Hi! I'm Swe ([@swedevswe](https://github.com/swedevswe)), a passionate software developer with a love for open-source development and data science. I enjoy working on exciting projects and contributing to the open-source community. 
 
 - 🌱 I’m currently learning advanced machine learning and Kubernetes.
 - 👯 I’m looking to collaborate on open-source projects and research papers.
