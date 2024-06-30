@@ -33,9 +33,6 @@ Created an interactive dashboard for analyzing coffee sales, enhancing data-driv
 ### [Weather App](https://github.com/swedevswe/WeatherApp.git)
 Designed a user-friendly weather application using Java Swing and RESTful services from OpenWeatherMap API.
 
-### [Movie Recommendation System](https://github.com/swedevswe/Movie-Recommendation.git)
-Developed a machine learning model to recommend movies based on user preferences with an 85% user satisfaction rate.
-
 ## Technical Skills
 
 - **Programming Languages**: Java, Python, JavaScript (including ES6+), HTML, CSS, also Familiar with (C, C#) through coursework and working on projects.
