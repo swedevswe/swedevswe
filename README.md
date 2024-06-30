@@ -27,7 +27,7 @@ Master of Science in Computer Science, Expected March 2025.
 ### [Portfolio Website](https://github.com/swedevswe/Swe-Portfolio-Swe)
 Developed a responsive personal portfolio website to showcase software projects and technical skills. Employed advanced CSS for styling and React for dynamic content management. Integrated GitHub Pages for deployment.
 
-### [Youtube Transcribe and Translate Web Application- React, Node.js, Express.js, Docker, PayPal API]([https://github.com/swedevswe/Swe-Portfolio-Swe](https://github.com/swedevswe/yt-tt.git))
+### [Youtube Transcribe and Translate Web Application- React, Node.js, Express.js, Docker, PayPal API](https://github.com/swedevswe/Swe-Portfolio-Swe)
 Developed a web app to transcribe and translate YouTube videos using React for the frontend, and Dockerized Node.js and Express.js for the backend. Integrated PayPal API for payments and deployed the frontend on GitHub Pages, with backend API hosted on Render.
 
 ### [Interactive Excel Dashboard: Coffee Sales](https://github.com/swedevswe/Interactive-Excel-Dashboard.git)
